@@ -1,0 +1,30 @@
+.a-fish{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-flow: column;
+    padding: 1.5rem;
+    border-radius: 10px 15px 15px 10px;
+    border: 1px crimson;
+    padding: 1em;
+    margin: 0.5em 
+}
+.inside-text {
+    display: flex;
+    justify-content: center;
+    background-color: lightseagreen;
+    flex-flow: column;
+    padding: 1.5rem;
+    border-radius: 10px 15px 15px 10px;
+    border: 4px black;
+    padding: 1em;
+    margin: 0.5em;
+    flex-direction: row;   
+};
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+};
+
