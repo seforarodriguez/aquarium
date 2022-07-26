@@ -1,15 +1,15 @@
-.a-fish{
+.fishList{
     display: flex;
     justify-content: center;
     background-color: black;
-    flex-flow: column;
+    flex-flow: row wrap;
     padding: 1.5rem;
     border-radius: 10px 15px 15px 10px;
     border: 1px crimson;
     padding: 1em;
     margin: 0.5em 
 }
-.inside-text {
+div {
     display: flex;
     justify-content: center;
     background-color: lightseagreen;
@@ -22,9 +22,21 @@
     flex-direction: row;   
 };
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fish__image {
+    width: 200px;
+    height: 200px;
+};
+
 body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 };
+
+/* how can I get my image sizing to work? */
 
